@@ -1,0 +1,193 @@
+esp32 nano is connect nodemcu-32s
+hex change to serial.println(data, HEX)
+Serial.println() => ln is next line;
+declare arr in outsite of loop
+for store data in arr use unsigned char
+
+02 41 51 36 31 31 35 36 34 35 34 03 13
+
+if you check String length in length()
+
+snprintf(message, 75, "Count: %d", count);
+Serial.println(message);
+
+BCC calculator
+
+if(){} else if(){} else{}
+
+for loop check ++i and i++
+
+=> if void main error. So u change int main()
+
+if you not send data in two esp32 check jumber wire *****
+
+and operator is need if ((x>10) && (x == 10))
+
+Note => serial.read is decimal data(ascii data)
+
+array is need to append data index number is increase ****
+array က index တစ်ခုချင်းဆီ number နဲ့ append လုပ်လို့ရ
+@eihmone
+
+inside function argument declare eg : function(int j=0){}
+
+wifi note
+endsWidth is to check string in string eg str a ="a is not b"; a.endsWith('a');
+WiFi.SSID(i).c_str() is to find ssid in wifi network
+
+if you want to add string in eg: currentLine +=c;
+
+https://www.dioty.co/ to connect mqtt form website;
+
+emic => to know
+flipper zero =>in ytube to know
+cc1101 module specification => to know signal wave
+Create a Droplet (Linux Ubuntu VM)
+
+
+other knowledge 
+dwin / dwin dgus / dwin hmi / mqtt / 
+
+
+192.168.0.100
+port 1883
+wer detpos
+pass asdffdsa
+
+https://easyeda.com/ to draw pcb
+led long(+) short(-)
+conting is only use count++
+
+buzzer maz frquency is 30000
+
+mqtt note
+test.mosquitto.org  => to know
+snprintf() => to know
+
+if(limit switch is off){
+  digitalWrite(Relay, off)
+}
+if(limit switch is on){
+waitTime = millis()
+  if(millis()-waitTime>= 3 second){   
+    digitalWrite(Relay, on) 
+    if(millis()-waitTime>=3 + 5 seconds){
+      digitalWrite(Relay, off)
+      buzzerOn();
+    }
+  }
+}
+
+72 coder /  brighter myanmar is for learning code 
+
+eep rom for store data => search
+
+structure is to group several related variable into one place.
+write and read string to eeprom to know how to store data in eeprom.
+
+data type 
+1byte = 8bit 0 - 255 in arduino
+long is only store positive value if over max value again start 0
+
+22 scl
+21 sda
+
+basic note 
+analogWrite(pin, 0 - 255)
+1023 -> 5v
+166 -> ?
+
+1023 -> 5v
+potentio meter value -> ?
+Serial.readString(), Serial.parseInt();
+
+flow meter data 
+1m -> 450 pulse
+1s -> 7.5 pulse
+1l -> 174 pulse
+1m - > 2.5L get in 12v dc water pump
+
+switch push data is = 0
+switch not push data is = 1
+
+bool false data is = 0
+bool true data is = 1
+
+mqtt note test
+https://console.hivemq.cloud/clusters/free/a025e76fe8d8476ea733103e60e3ffc5 => for mqtt online server
+mqtt => get start => mqtt essential => hivemq => login
+
+det ver P1.0 circuit board pin connect
+programmer input is tx , rx connect / lcd pin input in vcc , gnd connect 
+notic wifi and other module work in vcc(5v), not working 3.3v
+in esp32 serial one and serial2 are include *****
+serial one is need wire pin out while program input
+Serial two is no need wire pin out while program input
+
+
+Nextion note 
+page page1 is for next page
+print "on" is for string data
+object_name.txt = data for access object (no need space***)
+
+
+arduino err *******
+when use serial2.begin no need Serial just need Serial.print()
+softwareSerial libarary need in install from libarary for use other serial pin if u don't use default serail
+Serial.begin(115200) baund in data read************************
+if over arr size arduino error
+In hmi length is HEX need change eg: 0x0a************************
+Sometime hmi need two time serial write **********************
+If serial write in dwin need about delay(10);**********
+don't forget if you have error you might do debug*************
+when you used condition to check return back close condition this is so important ***************
+when send data to dwin in stop function the best way is to write one time in stop funtion so important*******
+if rx tx use in software serial input in setup rx tx pin**********
+if u send data from esp to mqqtx software if u declar in external string u should declare data.c_str()****
+if dwin setup error => file name is number no string name
+
+if array[10] over 10 data is save ff ff (or) 255 255
+sscom is for read data from dwin hmi and other data can read
+
+eeprom is declare EEPROM.begin(4096)********
+EEPROM.write(add + _size, '\0');  //Add termination null character for String Data
+  EEPROM.commit();
+
+dwin note 
+show tutorial for dwin => https://www.youtube.com/@guomaria6878/playlists
+if dwin setup error => file name is number no string name
+in char array if dwin send input text data esp32 is can print char array
+
+pcb note for website
+https://www.cestore-mm.com/product/esp32-chip-ic-32s/
+https://cart.jlcpcb.com/quote/?orderType=1&stencilLayer=2&stencilWidth=100&stencilLength=100&stencilCounts=5
+https://jlcpcb.com/
+
+mqtt broker
+hive mq website
+emqx cloud website
+
+publish from esp replay data
+subscribe from mqttx software or computer or sensor data
+eg: client.subscibe = >to topic temperature => data request
+client.publish => return temperature data from server
+
+arduino short function
+strcmp() =>is string compare eg : if (strcmp(topic, "esp32/receive") == 0) {}
+.equals() => eg: if (username.equals("admin") && password.equals("password")) {}
+strlen = is char array of length => eg :char charArray[] = "Hello world";  size_t length = strlen(charArray);
+strncp() is for copy string1 and string 2. eg: char *strncpy(char *string1, const char *string2, size_t count); , count is number of copy number
+concat() =>Appends the parameter to a String.
+content.toUpperCase(); => to change uppercase
+myString.substring(from, to) is limit string value
+myString.substring(from) to end of string
+
+for char array with 3 room. array data is hexa value eg: char data[3] = {0x01, 0x86, 0xA0); if you get int value use formula int data_val = (data[0] << 16) | (data[1] << 8) | data[2]; ///
+
+for oled in arduino convert image to byte array
+https://javl.github.io/image2cpp/
+
+
+if you want to add library
+C:\Users\AungK\AppData\Local\Arduino15\libraries
+

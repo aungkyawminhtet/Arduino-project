@@ -1,0 +1,21 @@
+46 69 6C 6C 69 6E 67
+5a a5 0c 82 40 00 46 69 6c 6c 69 6e 67 f9 d4 
+
+53 74 6F 70 70 65 64
+
+5A A5 05 82 11 00 01 90
+
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+Minute Count - 1 => 5a a5 13 82 41 00 4d 69 6e 75 74 65 20 43 6f 75 6e 74 20 2d 20 31 
+Liter Count - 1 => 5a a5 12 82 41 00 4c 69 74 65 72 20 43 6f 75 6e 74 20 2d 20 31
+
+Stop! => 5a a5 08 82 40 00 53 74 6f 70 21
+Filled => 46 69 6C 6C 65 64
+
+Filling return => 5A A5 3 82 4F 4B
+Stop return =>    5A A5 3 82 4F 4B 5A A5 3 82 4F 4B
+
+
+int combinedInt = (charArray[0] << 8) | charArray[1];
+

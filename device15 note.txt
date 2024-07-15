@@ -1,0 +1,7 @@
+mqttbuffer
+ppbuffer
+msgbuffer
+chararray
+i
+burcount = 0
+wifiTrytime = 0

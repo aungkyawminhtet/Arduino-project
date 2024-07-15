@@ -1,0 +1,36 @@
+relay pin 26  Low high R1
+relay pin 25 R2
+
+buzzer pin 4
+
+limit switch pin 32
+
+flowSensor pin 33
+
+
+start led pin 27
+run led pin 14 // 35
+stop led 12 // 34
+
+switch menu pin 18
+switch up count pin 19
+switch down count pin 5
+ 
+
+lcd pin
+vcc
+gnd
+scl 22
+sda 21
+
+relay pin
+vcc
+gnd
+relay two
+relay one
+
+
+dwin pin in box 
+vcc
+gnd
+data

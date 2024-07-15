@@ -1,0 +1,9 @@
+pnp transistor
+npn transistor n=negative p=positive
+in digital meter red is negative , black is positive
+in analog meter red is positive , black is negative
+if check positive increase num in meter this is base = pnp
+if check negative increase num in meter this is base = npn
+
+check another node if increase num in meter this is  collector
+left node is emitter 

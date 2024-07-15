@@ -1,0 +1,19 @@
+t0.val=t0.val+1 no need space
+
+if else usage
+if()
+{
+}
+else
+{
+}
+
+time function is tm0
+variable is va0
+
+j0.val=j0.val+1
+z0.val=z0.val+1
+va0.val=z0.val%10
+cov va0.val,t0.txt,1
+cov va0.val,t1.txt,1
+cov z0.val,t2.txt,3	

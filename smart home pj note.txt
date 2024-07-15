@@ -1,0 +1,42 @@
+smart farm => with moisture and alert 
+wifi scan 
+wifi change pass and ssid 
+water filling
+room temperature 
+lamp on of with display switch 
+auto street lamp on off ir sensor
+fan, aircom , televation,
+mode change ap , wifi 
+rfid card auth
+
+
+pin note 
+air com or fan = 
+each roam lamp= 
+outside lamp =
+water pump =
+room temperature = 
+tv = 
+
+2  -
+4  - plant_motor_pin
+5  - moisturizer sensor
+12 - Buzzer pin
+13 - all home lamp relay
+14 - aircon
+15 - home_lamp_pin
+16 - rx2
+17 - tx2
+18 - rfid
+19 - rfid
+21 - rfid
+22 - rfid
+23 - rfid
+25
+26
+27
+32
+33
+36 - idr sensor
+
+

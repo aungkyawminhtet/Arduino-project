@@ -1,0 +1,57 @@
+esp32 nano is connect nodemcu-32s
+hex change to serial.println(data, HEX)
+Serial.println() => ln is next line;
+declare arr in outsite of loop
+for store data in arr use unsigned char
+
+02 41 51 36 31 31 35 36 34 35 34 03 13
+
+if you check String length in length()
+
+BCC calculator
+
+if(){} else if(){} else{}
+
+for loop check ++i and i++
+
+=> if void main error. So u change int main()
+
+if you not send data in two esp32 check jumber wire *****
+
+and operator is need if ((x>10) && (x == 10))
+
+Note => serial.read is decimal data(ascii data)
+
+array is need to append data index number is increase ****
+array က index တစ်ခုချင်းဆီ number နဲ့ append လုပ်လို့ရ
+@eihmone
+
+inside function argument declare eg : function(int j=0){}
+
+wifi note
+endsWidth is to check string in string eg str a ="a is not b"; a.endsWith('a');
+WiFi.SSID(i).c_str() is to find ssid in wifi network
+
+if you want to add string in eg: currentLine +=c;
+
+https://www.dioty.co/ to connect mqtt form website;
+
+emic => to know
+flipper zero =>in ytube to know
+cc1101 module specification => to know signal wave
+Create a Droplet (Linux Ubuntu VM)
+
+
+other knowledge 
+dwin / dwin dgus / dwin hmi / mqtt / 
+
+
+192.168.0.100
+port 1883
+wer detpos
+pass asdffdsa
+
+
+mqtt note
+test.mosquitto.org  => to know
+snprintf() => to know
