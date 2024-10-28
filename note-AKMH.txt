@@ -1,3 +1,6 @@
+
+https://dl.espressif.com/dl/package_esp32_index.json
+
 esp32 nano is connect nodemcu-32s
 hex change to serial.println(data, HEX)
 Serial.println() => ln is next line;
