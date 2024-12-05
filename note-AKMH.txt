@@ -148,6 +148,7 @@ when send data to dwin in stop function the best way is to write one time in sto
 if rx tx use in software serial input in setup rx tx pin**********
 if u send data from esp to mqqtx software if u declar in external string u should declare data.c_str()****
 if dwin setup error => file name is number no string name
+if you using serial2 , you should read data Serial2.read()**********************
 
 if array[10] over 10 data is save ff ff (or) 255 255
 sscom is for read data from dwin hmi and other data can read
